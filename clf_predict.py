@@ -2,8 +2,7 @@ import pandas as pd
 import stockx_util as x
 import streamlit as st
 import lightgbm as lgb
-from datetime import datetime, timedelta
-import pytz
+from datetime import datetime
 
 @ st.cache
 def load_data(suffix = '_all_shoe_down10_up10'):
@@ -11,7 +10,7 @@ def load_data(suffix = '_all_shoe_down10_up10'):
     p_name_ref = pd.read_csv('product_name'+suffix+'.csv')
     c1_ref = pd.read_csv('color1'+suffix+'.csv')
     c2_ref = pd.read_csv('color2'+suffix+'.csv')
-    
+
 
     return model_ref, p_name_ref, c1_ref, c2_ref
 @ st.cache

@@ -1,27 +1,18 @@
 from __future__ import division, print_function
 # coding=utf-8
 import streamlit as st
-import seaborn as sns
 import os
-import numpy as np
-import lightgbm
 import clf_predict
 import pandas as pd
-import networkx
 import webbrowser
 import requests
 from bs4 import BeautifulSoup as bs4
-from datetime import datetime, timedelta
-import matplotlib.pyplot as plt
-from dateutil.relativedelta import relativedelta
+from datetime import datetime
 import re
 import lightgbm as lgb
 import stockx_util as x
 from stockx_util import find_between
-import pytz
-from sklearn.metrics import *
 import plotly.express as px
-import plotly.graph_objects as go
 # main code for streamlit demo
 
 def go_to_product_page(item_url):
