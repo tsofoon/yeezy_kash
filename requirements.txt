@@ -1,0 +1,8 @@
+streamlit
+lightgbm
+pandas
+bs4
+plotly
+lightgbm
+tqdm
+matplotlib
