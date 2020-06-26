@@ -7,4 +7,4 @@ Individual transaction data and product detail were scraped from stockx.com. Fea
 
 [Google Slides](https://docs.google.com/presentation/d/1DJlCXuTYRNufT9h4LV_Q3JIcVpJSxjAd-OMU92k2HAY/edit?usp=sharing)
 [Demo video](https://www.youtube.com/watch?v=18xwPXEI-WU)
-[Find me on Linkedin] (https://www.linkedin.com/in/matttso/)
+[Find me on Linkedin](https://www.linkedin.com/in/matttso/)
